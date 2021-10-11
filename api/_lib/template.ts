@@ -84,7 +84,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .spacer {
-        margin: 150px;
+        margin: 0px 30px 50px;
     }
 
     .emoji {
@@ -99,7 +99,7 @@ function getCss(theme: string, fontSize: string) {
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
-        line-height: 1.8;
+        line-height: 1.5;
     }
     
     .owl {
@@ -113,6 +113,7 @@ function getCss(theme: string, fontSize: string) {
         position: absolute;
         bottom: 0;
         font-size: 50px;
+        color: #082e50;
         left: 50%;
         transform: translate(-50%, -50%);
     }
