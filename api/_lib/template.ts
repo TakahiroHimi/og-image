@@ -129,7 +129,6 @@ export function getHtml(parsedReq: ParsedRequest) {
 }
 
 function getImage(src: string, width = 'auto', height = '350') {
-  console.log(width, height)
   return `<img
         class="logo"
         alt="Generated Image"
