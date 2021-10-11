@@ -21,6 +21,8 @@ function getCss(theme: string, fontSize: string) {
     // radial = 'dimgray'
   }
   return `
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
     @font-face {
         font-family: 'Inter';
         font-style:  normal;
@@ -104,7 +106,17 @@ function getCss(theme: string, fontSize: string) {
         position: absolute;
         top: 0;
         right: 0;
-    }`
+    }
+    
+    .blog-name {
+        font-family: 'Roboto', sans-serif;
+        position: absolute;
+        bottom: 0;
+        font-size: 50px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    `
 }
 
 export function getHtml(parsedReq: ParsedRequest) {
@@ -118,7 +130,7 @@ export function getHtml(parsedReq: ParsedRequest) {
         ${getCss(theme, fontSize)}
     </style>
     <body>
-        <img class="owl" alt="owl" src="https://og-image-blue.vercel.app/owl.png" width="1000px" height="auto" />
+        <img class="owl" alt="owl" src="https://og-image-blue.vercel.app/owl-blue.png" width="900px" height="auto" />
         <div>
             <div class="spacer">
             <div class="logo-wrapper">
@@ -130,6 +142,7 @@ export function getHtml(parsedReq: ParsedRequest) {
             <div class="heading">${emojify(md ? marked(text) : sanitizeHtml(text))}
             </div>
         </div>
+        <p class="blog-name">blog.owlcode.net</p>
     </body>
 </html>`
 }
