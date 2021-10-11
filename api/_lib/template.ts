@@ -11,14 +11,14 @@ const bold = readFileSync(`${__dirname}/../_fonts/Inter-Bold.woff2`).toString('b
 const mono = readFileSync(`${__dirname}/../_fonts/Vera-Mono.woff2`).toString('base64')
 
 function getCss(theme: string, fontSize: string) {
-  let background = 'white'
+  //   let background = 'white'
   let foreground = 'black'
-  let radial = 'lightgray'
+  //   let radial = 'lightgray'
 
   if (theme === 'dark') {
-    background = 'black'
+    // background = 'black'
     foreground = 'white'
-    radial = 'dimgray'
+    // radial = 'dimgray'
   }
   return `
     @font-face {
@@ -43,14 +43,13 @@ function getCss(theme: string, fontSize: string) {
         }
 
     body {
-        background: ${background};
-        background-image: radial-gradient(circle at 25px 25px, ${radial} 2%, transparent 0%), radial-gradient(circle at 75px 75px, ${radial} 2%, transparent 0%);
-        background-size: 100px 100px;
+        background-color: rgba(165, 197, 214, 0.1);
         height: 100vh;
         display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
+        position: relative;
     }
 
     code {
@@ -99,6 +98,12 @@ function getCss(theme: string, fontSize: string) {
         font-style: normal;
         color: ${foreground};
         line-height: 1.8;
+    }
+    
+    .owl {
+        position: absolute;
+        top: 0;
+        right: 0;
     }`
 }
 
@@ -113,6 +118,7 @@ export function getHtml(parsedReq: ParsedRequest) {
         ${getCss(theme, fontSize)}
     </style>
     <body>
+        <img class="owl" alt="owl" src="https://og-image-blue.vercel.app/owl.png" width="1000px" height="auto" />
         <div>
             <div class="spacer">
             <div class="logo-wrapper">
