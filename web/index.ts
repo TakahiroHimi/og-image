@@ -150,8 +150,7 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: 'React',
-    value:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png',
+    value: 'https://og-image-blue.vercel.app/images/react.png',
   },
 ]
 
@@ -170,8 +169,7 @@ const imageDarkOptions: DropdownOption[] = [
   },
   {
     text: 'React',
-    value:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/768px-React-icon.svg.png',
+    value: 'https://og-image-blue.vercel.app/images/react.png',
   },
 ]
 
