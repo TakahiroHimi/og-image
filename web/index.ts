@@ -152,6 +152,10 @@ const imageLightOptions: DropdownOption[] = [
     text: 'React',
     value: 'https://og-image-blue.vercel.app/images/react.png',
   },
+  {
+    text: 'Note',
+    value: 'https://og-image-blue.vercel.app/images/note.png',
+  },
 ]
 
 const imageDarkOptions: DropdownOption[] = [
@@ -170,6 +174,10 @@ const imageDarkOptions: DropdownOption[] = [
   {
     text: 'React',
     value: 'https://og-image-blue.vercel.app/images/react.png',
+  },
+  {
+    text: 'Note',
+    value: 'https://og-image-blue.vercel.app/images/note.png',
   },
 ]
 
