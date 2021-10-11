@@ -150,11 +150,11 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: 'React',
-    value: 'https://og-image-blue.vercel.app/images/react.png',
+    value: 'https://ogp.owlcode.net/images/react.png',
   },
   {
     text: 'Note',
-    value: 'https://og-image-blue.vercel.app/images/note.png',
+    value: 'https://ogp.owlcode.net/images/note.png',
   },
 ]
 
@@ -173,11 +173,11 @@ const imageDarkOptions: DropdownOption[] = [
   },
   {
     text: 'React',
-    value: 'https://og-image-blue.vercel.app/images/react.png',
+    value: 'https://ogp.owlcode.net/images/react.png',
   },
   {
     text: 'Note',
-    value: 'https://og-image-blue.vercel.app/images/note.png',
+    value: 'https://ogp.owlcode.net/images/note.png',
   },
 ]
 
