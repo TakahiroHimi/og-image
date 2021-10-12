@@ -112,7 +112,7 @@ function getCss(theme: string, fontSize: string) {
     .blog-name {
         font-family: 'Roboto', sans-serif;
         position: absolute;
-        bottom: 16px;
+        bottom: 28px;
         font-size: 50px;
         color: #082e50;
         left: 50%;
