@@ -22,7 +22,7 @@ function getCss(theme: string, fontSize: string) {
   }
   return `
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap');
 
     @font-face {
         font-family: 'Inter';
