@@ -146,7 +146,7 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: 'Hyper',
-    value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg',
+    value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-bw-logo.svg',
   },
   {
     text: 'React',
