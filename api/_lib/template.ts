@@ -22,6 +22,7 @@ function getCss(theme: string, fontSize: string) {
   }
   return `
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
     @font-face {
         font-family: 'Inter';
@@ -95,7 +96,7 @@ function getCss(theme: string, fontSize: string) {
     }
 
     .heading {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Noto Sans JP', sans-serif;
         font-size: ${sanitizeHtml(fontSize)};
         font-style: normal;
         color: ${foreground};
