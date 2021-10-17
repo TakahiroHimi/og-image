@@ -160,6 +160,10 @@ const imageLightOptions: DropdownOption[] = [
     text: 'TypeScript',
     value: 'https://ogp.owlcode.net/images/TypeScript.png',
   },
+  {
+    text: 'npm',
+    value: 'https://ogp.owlcode.net/images/npm.png',
+  },
 ]
 
 const imageDarkOptions: DropdownOption[] = [
@@ -186,6 +190,10 @@ const imageDarkOptions: DropdownOption[] = [
   {
     text: 'TypeScript',
     value: 'https://ogp.owlcode.net/images/TypeScript.png',
+  },
+  {
+    text: 'npm',
+    value: 'https://ogp.owlcode.net/images/npm.png',
   },
 ]
 
