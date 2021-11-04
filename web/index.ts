@@ -164,6 +164,10 @@ const imageLightOptions: DropdownOption[] = [
     text: 'npm',
     value: 'https://ogp.owlcode.net/images/npm.png',
   },
+  {
+    text: 'Amplify',
+    value: 'https://ogp.owlcode.net/images/amplify.png',
+  },
 ]
 
 const imageDarkOptions: DropdownOption[] = [
@@ -194,6 +198,10 @@ const imageDarkOptions: DropdownOption[] = [
   {
     text: 'npm',
     value: 'https://ogp.owlcode.net/images/npm.png',
+  },
+  {
+    text: 'Amplify',
+    value: 'https://ogp.owlcode.net/images/amplify.png',
   },
 ]
 
