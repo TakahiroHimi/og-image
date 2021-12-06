@@ -166,11 +166,11 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: 'Amplify',
-    value: 'https://ogp.owlcode.net/images/amplify.png',
+    value: 'https://ogp.owlcode.net/images/Amplify.png',
   },
   {
     text: 'Book',
-    value: 'https://ogp.owlcode.net/images/book.png',
+    value: 'https://ogp.owlcode.net/images/Book.png',
   },
 ]
 
@@ -205,11 +205,11 @@ const imageDarkOptions: DropdownOption[] = [
   },
   {
     text: 'Amplify',
-    value: 'https://ogp.owlcode.net/images/amplify.png',
+    value: 'https://ogp.owlcode.net/images/Amplify.png',
   },
   {
     text: 'Book',
-    value: 'https://ogp.owlcode.net/images/book.png',
+    value: 'https://ogp.owlcode.net/images/Book.png',
   },
 ]
 
