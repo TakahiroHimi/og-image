@@ -150,7 +150,7 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: 'React',
-    value: 'https://ogp.owlcode.net/images/react.png',
+    value: 'https://ogp.owlcode.net/images/React.png',
   },
   {
     text: 'Note',
@@ -189,7 +189,7 @@ const imageDarkOptions: DropdownOption[] = [
   },
   {
     text: 'React',
-    value: 'https://ogp.owlcode.net/images/react.png',
+    value: 'https://ogp.owlcode.net/images/React.png',
   },
   {
     text: 'Note',
