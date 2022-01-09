@@ -142,7 +142,7 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: 'Next.js',
-    value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg',
+    value: 'https://ogp.owlcode.net/images/Next.js.png',
   },
   {
     text: 'Hyper',
@@ -181,7 +181,7 @@ const imageDarkOptions: DropdownOption[] = [
   },
   {
     text: 'Next.js',
-    value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-white-logo.svg',
+    value: 'https://ogp.owlcode.net/images/Next.js.png',
   },
   {
     text: 'Hyper',
