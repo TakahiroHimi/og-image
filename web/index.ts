@@ -141,7 +141,7 @@ const imageLightOptions: DropdownOption[] = [
     value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg',
   },
   {
-    text: 'Next.js',
+    text: 'Nextjs',
     value: 'https://ogp.owlcode.net/images/Next.js.png',
   },
   {
@@ -180,7 +180,7 @@ const imageDarkOptions: DropdownOption[] = [
     value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-white.svg',
   },
   {
-    text: 'Next.js',
+    text: 'Nextjs',
     value: 'https://ogp.owlcode.net/images/Next.js.png',
   },
   {
